@@ -291,3 +291,42 @@
     width: 100%;
   }
 }
+
+.moveActions {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-top: 0.6rem;
+}
+
+.moveButton {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.moveButton:hover {
+  background: rgba(65, 166, 255, 0.15);
+  color: var(--accent);
+}
+
+.deleteStateButton {
+  background: rgba(255, 107, 107, 0.12);
+  color: var(--danger, #ff6b6b);
+  border: 1px solid rgba(255, 107, 107, 0.25);
+  border-radius: 8px;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.deleteStateButton:hover {
+  background: rgba(255, 107, 107, 0.25);
+}

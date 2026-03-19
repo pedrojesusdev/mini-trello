@@ -41,6 +41,32 @@
   color: var(--accent);
 }
 
+.filter {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  padding: 0.35rem 0.7rem;
+  margin-left: 58rem;
+}
+
+.sort {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  justify-content: end;
+  padding: 0.35rem 0.7rem;
+}
+
 @media (max-width: 520px) {
   .header {
     flex-direction: column;
